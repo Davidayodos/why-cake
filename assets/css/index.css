@@ -1,0 +1,118 @@
+.logo {
+    display: flex;
+   align-items: center;
+   gap: 600px;
+   /* justify-content: space-between; */
+   }
+   body {
+    padding: 50px;
+   }
+
+  .logo h1 {
+    font-size: 25px;
+    text-align: center;
+     
+}
+.btn {
+    /* background-color: rgb(0, 255, 17); */
+    border: none;
+    color: rgb(0, 255, 17);
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: white;
+    color: rgb(0, 255, 17);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-size: 50px;
+    align-content: center;
+    font-family: sans-serif;
+    
+}
+
+.recipe-card span {
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-left: 5px;
+    
+    
+}
+.recipe-card {
+    width: 350px;
+    height: auto;;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.recipe-card a {
+    background-color: rgb(0, 255, 17);
+    font-size: 15px;
+    font-weight: 550;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    max-width: 100%;
+    width: 80%;
+    height: 33px;
+
+}
+
+.search-container {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.search-container input {
+    align-items: center;
+    width: 20%;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    display: flex;
+
+}
+.recipe-display-container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.recipe-card img {
+    width: 80%;
+    object-fit: cover;
+}
+.recipe-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 18px;
+
+}
+.recipe-section h2 {
+    font-size: 43px;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
